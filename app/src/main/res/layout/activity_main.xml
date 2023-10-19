@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#4B7571">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mad_JSON_Practical"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/set_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#4B7571"
+            android:elevation="20dp"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.112">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/profile_picture"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Krish Modi \n+91 81415***** \nKrish*****@gmail.com \n123,chandraprabhu bunglows, \nMehsana"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/locator"
+                    tools:layout_editor_absoluteX="301dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/set_alarm2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#4B7571"
+            android:elevation="20dp"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.396">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aryan Parmar \n+91 83204***** \nAryan*****@gmail.com \nSomewhere in moon,\nnear sun \nGalaxy"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/profile_picture"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/locator"
+                    tools:layout_editor_absoluteX="301dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/set_alarm3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#4B7571"
+            android:elevation="20dp"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.674">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yash Pandya \n+91 63517***** \nYash*****@gmail.com \nI Don't know where he is , \nLost in space"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/profile_picture"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/locator"
+                    tools:layout_editor_absoluteX="301dp"
+                    tools:layout_editor_absoluteY="32dp"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/set_alarm4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#4B7571"
+            android:elevation="20dp"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.957">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pratik Kothari \n+91 82005***** \nPratik*****@gmail.com \nSomewhere in pluto"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/profile_picture"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/locator"
+                    tools:layout_editor_absoluteX="301dp"
+                    tools:layout_editor_absoluteY="33dp"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/refresh"
+            tools:layout_editor_absoluteX="338dp"
+            tools:layout_editor_absoluteY="668dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

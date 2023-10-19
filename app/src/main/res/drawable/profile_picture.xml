@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="oval">
+        <gradient android:startColor="#A36D8D"
+        android:centerColor="#19191b"
+        android:endColor="#19191b"
+        android:type="radial"
+        android:gradientRadius="100%p"
+        android:centerX="0.3"
+        android:centerY="0.5" />
+    </shape>
+</item>
+    <item android:drawable="@drawable/baseline_person_24"
+        android:left="15dp" android:right="15dp"
+        android:top="15dp" android:bottom="15dp"
+        >
+    </item>
+</layer-list>
